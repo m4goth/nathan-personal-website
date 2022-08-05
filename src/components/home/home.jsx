@@ -9,7 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+
+import logo from '../../images/logo.png';
 
 const pages = ['Página inicial', 'Sobre', 'Serviços', 'Livros', 'Conteúdo', 'Contato'];
 
@@ -25,12 +26,11 @@ const Home = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ bgcolor: "#0F5C84" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
-            <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-
+          {/* logo a - estatico*/}
             <Typography
               variant="h6"
               noWrap
@@ -46,9 +46,10 @@ const Home = () => {
                 textDecoration: 'none',
               }}
             >
-              NATHAN
+              <img src={logo} alt="logo"></img>
             </Typography>
 
+            {/* hamburguer */}
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
               <IconButton
                 size="large"
@@ -85,9 +86,8 @@ const Home = () => {
                 ))}
               </Menu>
             </Box>
-
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-
+            
+            {/* logo b - responsivo */}
             <Typography
               variant="h5"
               noWrap
@@ -104,9 +104,10 @@ const Home = () => {
                 textDecoration: 'none',
               }}
             >
-              NATHAN
+              <img src={logo} alt="logo"></img> 
             </Typography>
 
+            {/* estático */}
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
                 <Button
