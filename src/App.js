@@ -1,16 +1,20 @@
 import React from "react";
-import Home from './components/home/home';
-// import grade from './components/pages/pag-inicial';
-// import contatobutton from './components/contato-button';
+import { Home } from './pages/Home';
+import { NavBar } from './components/NavBar';
+import { Footer } from './components/Footer'
 
-function App() {
+const App = () => {
+// function App() {
   return (
     <div className="App">
-      <Home/>
-      {/* <grade/>
-      <contatobutton/> */}
+      {/* barra */}
+      <NavBar /> 
+      {/* página home */}
+      <Home />
+      {/* rodapé */}
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
