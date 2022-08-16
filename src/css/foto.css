@@ -1,0 +1,8 @@
+.foto {
+    position: absolute;
+    width: 722px;
+    height: 747px;
+
+    background: url(../images/foto.png);
+    border-radius: 451px;
+}

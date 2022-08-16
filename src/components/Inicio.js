@@ -4,10 +4,9 @@
 // import Paper from '@mui/material/Paper';
 // import Grid from '@mui/material/Grid';
 
-// // import foto from '../../images/foto.png'
+// import foto from '../../images/foto.png'
 
-// // const Inicio = () => {
-// export function Inicio(){
+// const paginicial = () => {
 
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -21,9 +20,9 @@
 //         return(
 //             <Box sx={{ flexGrow: 1 }}>
 //             <Grid container spacing={2}>
-//                 {/* <Grid item xs={8}>
+//                 <Grid item xs={8}>
 //                     <img src={foto} alt="foto"></img>
-//                 </Grid> */}
+//                 </Grid>
 //                 <Grid item xs={4}>
 //                 <Item>xs=4</Item>
 //                 </Grid>
@@ -39,8 +38,8 @@
 //     };
 // };
 
-// export default Inicio;
+// export default paginicial;
 
 export function Inicio(){
-    return <h2>Página inicial</h2>
+    return <h2>Inicio</h2>
 }
