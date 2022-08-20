@@ -1,18 +1,26 @@
 import React from "react";
 import "../css/Footer.css";
+// import { makeStyles } from '@mui/material/styles'
+
+// const useStyles = makeStyles (
+//   theme=>({
+//     footer: {backgroundColor: theme.palette.common.blue, width:"100%"}
+//   })
+// );
 
 export function Footer() {
+  // const classes = useStyles();
+
   return (
     <div className="footer-main">
-      <div className="container">
-
+      <div className="footer-conteudo">
         <div className="texto">
-            <p>Me siga nas redes sociais</p>
-            <p>@Nathan</p>
-            <p>contatoemail@mail.com</p>
+            <h3>Me siga nas redes sociais</h3>
+            <h3>@Nathan</h3>
+            <h3>contatoemail@mail.com</h3>
         </div>
         <br></br>
-        <div className="redes">
+        <div className="icon-redes">
             <svg width="190px" height="30px" top="4657px" left="3082px" viewBox="0 0 190 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24.3 19.2723H23.31V21.596C21.4725 23.1429 19.0875 23.9933 16.5675 23.9933C11.0775 23.9933 6.6375 19.9621 6.6375 14.9933C6.6375 10.0312 11.0775 5.9933 16.5675 5.9933C19.215 5.9933 21.7125 6.9308 23.5875 8.6317L28.26 4.39286C25.125 1.56027 20.9775 0 16.5525 0C7.35 0 0 6.73661 0 15C0 23.2031 7.275 30 16.5525 30C21.2925 30 25.89 28.2455 29.3775 24.4754C29.2275 22.6272 28.3725 19.2723 24.3 19.2723ZM23.3925 11.7388H15.42V17.6987H24.3C26.8125 17.6987 28.8375 18.7098 30 20.4978V18.4487C30 14.0826 26.97 11.7388 23.3925 11.7388Z" fill="black" fill-opacity="0.6"/>
         <path d="M71.5122 19.0625L72.2065 14.5381H67.8652V11.6021C67.8652 10.3643 68.4717 9.15771 70.416 9.15771H72.3896V5.30566C72.3896 5.30566 70.5986 5 68.8862 5C65.311 5 62.9741 7.16699 62.9741 11.0898V14.5381H59V19.0625H62.9741V30H67.8652V19.0625H71.5122Z" fill="black" fill-opacity="0.6"/>
