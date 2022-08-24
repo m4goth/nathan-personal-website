@@ -1,16 +1,14 @@
+
+
+
 .footer-main {
     color: #FFFFFF;
     background-color: #0E5B83;
     padding-top: 40px;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: auto;
     text-align: center;
-    left: 0;
-    right: 0;
 
-};
+}
+
 
 .footer-conteudo {
     display: flex;
@@ -18,14 +16,14 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-};
+}
 
 .footer-conteudo h3{
     font-size: 2.1rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
-};
+}
 
 .footer-conteudo p{
     max-width: 500px;
@@ -33,16 +31,8 @@
     line-height: 28px;
     font-size: 14px;
     color: #cacdd2;
-};
+}
 
-/* .texto {
-    font-family: "Questrial";
-    font-style: normal;
-    font-weight: auto;
-    font-size: 36px;
-    line-height: 37px;
-    letter-spacing: 0.245em;
-
-    color: #FFFFFF;
-};  */
-
+.social-list{
+    list-style: none ;
+}
