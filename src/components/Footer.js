@@ -1,3 +1,5 @@
+// import icons from `react-icons`
+
 import React from "react";
 import "../css/Footer.css";
 // import { makeStyles } from '@mui/material/styles'
