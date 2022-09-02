@@ -6,7 +6,7 @@ import '../css/Livros.css';
 
 const Livros = () => {
     return (
-      <Container className="container-livros">
+      <Container className="container-livros" maxWidth="md">
         <Grid container spacing={2} sx={{p:4}}>
           <Grid xs={12} sm={6} className="grid-left">
             <h1>Livros</h1>

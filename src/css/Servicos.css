@@ -4,7 +4,18 @@
 
 .container-servicos {
     padding: 5rem;
+    padding-bottom: 5rem;
+    min-width: 100vw;
 }
+
+.tittle {
+    padding: 3rem;
+}
+
+button {
+    padding: 3rem;
+}
+
 .grid p{
     text-align: center;
 }

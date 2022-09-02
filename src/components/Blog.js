@@ -5,7 +5,7 @@ import '../css/Blog.css'
 
 const Blog = () => {
   return (
-    <Container className="container-blog">
+    <Container className="container-blog" maxWidth="md">
       <h1 className="tittle">Conteúdo</h1>
       <p className="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum.</p>
     </Container>
