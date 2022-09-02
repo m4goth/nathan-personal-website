@@ -8,7 +8,7 @@ import '../css/Inicio.css';
 
 const Inicio = () => {
   return (
-    <Container className="container-inicio" maxWidth="md">
+    <Container className="container-inicio">
       <Grid container spacing={2} sx={{p:4}}>
         <Grid item xs={12} sm={6} className="grid-left">
           <img style={{ width: "100%", borderRadius: '50%'}} src={foto} alt="foto"></img>

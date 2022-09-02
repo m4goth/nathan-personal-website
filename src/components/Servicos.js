@@ -7,9 +7,9 @@ import Button from '@mui/material/Button';
 
 export function Servicos() {
   return (
-        <Container className="container-servicos" maxWidth="md">
+        <Container className="container-servicos">
             <h1 className='tittle'>Serviços</h1>
-            <Grid container spacing={2}>
+            <Grid container spacing={3}>
                 {/* serviço 1 */}
                 <Grid item xs={8} sm={6}>
                     {/* <h1>img</h1> */}
