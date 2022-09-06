@@ -6,12 +6,12 @@ import { Inicio } from "../components/Inicio"
 
 export function Home() {
     return (
-        <section>
+        <main>
             <Inicio></Inicio>
             <Sobre></Sobre>
             <Servicos></Servicos>
             <Livros></Livros>
             <Blog></Blog>
-        </section>
+        </main>
     )
 }

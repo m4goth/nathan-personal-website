@@ -13,7 +13,7 @@ export function Servicos() {
                 {/* serviço 1 */}
                 <Grid item xs={8} sm={6}>
                     {/* <h1>img</h1> */}
-                    <svg width="" height="" viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg  viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="664" height="614" fill="#0E5B83"/>
                     </svg>
 
@@ -33,7 +33,7 @@ export function Servicos() {
                 </Grid>
                 <Grid item xs={8} sm={6}>
                     {/* <h1>img</h1> */}
-                    <svg width="" height="" viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg  viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="664" height="614" fill="#0E5B83"/>
                     </svg>
                 </Grid>
@@ -42,7 +42,7 @@ export function Servicos() {
                 {/* serviço 3 */}
                 <Grid item xs={8} sm={6}>
                     {/* <h1>img</h1> */}
-                    <svg width="" height="" viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg viewBox="300 100 664 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="664" height="614" fill="#0E5B83"/>
                     </svg>
                 </Grid>
