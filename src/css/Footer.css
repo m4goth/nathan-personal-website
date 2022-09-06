@@ -1,6 +1,4 @@
 
-
-
 .footer-main {
     color: #FFFFFF;
     background-color: #0E5B83;
@@ -19,7 +17,7 @@
 }
 
 .footer-conteudo h3{
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
@@ -35,4 +33,9 @@
 
 .social-list{
     list-style: none ;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 10px;
+    margin: 1.5rem;
 }

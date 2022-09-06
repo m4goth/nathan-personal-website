@@ -1,0 +1,12 @@
+.container-sobre {
+    background-color: #0E5B83;
+    padding: 5rem;
+
+    color: #cecece;
+
+    min-width: 100vw;
+}
+
+.paragraph {
+    text-align: center;
+}

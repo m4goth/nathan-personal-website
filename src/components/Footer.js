@@ -36,15 +36,15 @@ export function Footer() {
            </ul>
         </div>
         <br></br>
-        <div className="direitos">
+        {/* <div className="direitos">
           <p className="col-sm">
             &copy;
             {new Date().getFullYear()} 
             <br></br>
             Termos de Serviço
           </p>
-        </div>
-        <br></br>
+        </div> */}
+        {/* <br></br> */}
 
       </div>
     </div>
