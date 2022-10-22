@@ -2,7 +2,8 @@
 .footer-main {
     color: #FFFFFF;
     background-color: #0E5B83;
-    padding-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 
 }
@@ -16,9 +17,9 @@
     text-align: center;
 }
 
-.footer-conteudo h3{
-    font-size: 1.5rem;
-    font-weight: 500;
+.footer-conteudo h5{
+    font-size: 1rem;
+    font-weight: 100;
     text-transform: capitalize;
     line-height: 3rem;
 }
