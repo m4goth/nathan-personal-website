@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/m4goth/nathan-personal-website/static/css/main.5489846b.css",
-    "main.js": "/m4goth/nathan-personal-website/static/js/main.725c593e.js",
+    "main.js": "/m4goth/nathan-personal-website/static/js/main.6ddd0973.js",
     "static/js/787.fdd197d0.chunk.js": "/m4goth/nathan-personal-website/static/js/787.fdd197d0.chunk.js",
     "static/media/foto.png": "/m4goth/nathan-personal-website/static/media/foto.b2164fcf55b01c19d6d4.png",
     "index.html": "/m4goth/nathan-personal-website/index.html",
     "main.5489846b.css.map": "/m4goth/nathan-personal-website/static/css/main.5489846b.css.map",
-    "main.725c593e.js.map": "/m4goth/nathan-personal-website/static/js/main.725c593e.js.map",
+    "main.6ddd0973.js.map": "/m4goth/nathan-personal-website/static/js/main.6ddd0973.js.map",
     "787.fdd197d0.chunk.js.map": "/m4goth/nathan-personal-website/static/js/787.fdd197d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5489846b.css",
-    "static/js/main.725c593e.js"
+    "static/js/main.6ddd0973.js"
   ]
 }
