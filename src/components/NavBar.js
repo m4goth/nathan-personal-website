@@ -105,7 +105,7 @@ export function NavBar() {
                 textDecoration: 'none',
               }}
             >
-              <img src={Logo} alt="logo"></img> 
+              <img src={Logo} alt="Logo"/> 
             </Typography>
 
             {/* estático */}
