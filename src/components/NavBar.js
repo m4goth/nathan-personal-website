@@ -47,7 +47,7 @@ export function NavBar() {
                 textDecoration: 'none',
               }}
             >
-              <img src={logo} alt="logo"></img>
+              <img src={logo} alt="logo"/>
             </Typography>
 
             {/* hamburguer */}
