@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-import logo from '../images/logo.png';
+import Logo from '../images/logo.png';
 
 const pages = ['Página inicial', 'Sobre', 'Serviços', 'Livros', 'Conteúdo', 'Contato'];
 
@@ -47,7 +47,7 @@ export function NavBar() {
                 textDecoration: 'none',
               }}
             >
-              <img src={logo} alt="logo"/>
+              <img src={Logo} alt="Logo"/>
             </Typography>
 
             {/* hamburguer */}
