@@ -11,7 +11,7 @@ const Inicio = () => {
     <Container className="container-inicio">
       <Grid container spacing={2} sx={{p:4}}>
         <Grid item xs={12} sm={6} className="grid-left">
-          <img style={{ width: "100%", borderRadius: '50%'}} src={foto} alt="foto"></img>
+          <img style={{ width: "100%", borderRadius: '50%'}} src={foto} alt="foto"/>
         </Grid>
         <Grid item xs={12} sm={6} className="grid-right">
         &emsp;
