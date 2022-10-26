@@ -11,7 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Logo } from './Logo';
 
-
 const pages = ['Página inicial', 'Sobre', 'Serviços', 'Livros', 'Conteúdo', 'Contato'];
 
 export function NavBar() {
