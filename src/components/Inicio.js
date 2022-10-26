@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Button from '@mui/material/Button';
 
-import foto from "../images/foto.png";
+import foto from '../../public/assets/foto.png';
 import '../css/Inicio.css';
 
 const Inicio = () => {
