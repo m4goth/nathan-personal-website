@@ -17,7 +17,7 @@ export function Footer() {
     <div className="footer-main">
       <div className="footer-conteudo">
         <div className="texto">
-            <h5>contatoemail@mail.com</h5>
+            <p>contatoemail@mail.com</p>
           
             <ul className="social-list">
             <li>
