@@ -17,8 +17,6 @@ export function Footer() {
     <div className="footer-main">
       <div className="footer-conteudo">
         <div className="texto">
-            <h5>Me siga nas redes sociais</h5>
-            <h5>@Nathan</h5>
             <h5>contatoemail@mail.com</h5>
           
             <ul className="social-list">
