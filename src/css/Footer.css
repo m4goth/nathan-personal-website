@@ -2,9 +2,9 @@
 .footer-main {
     color: #FFFFFF;
     background-color: #0E5B83;
-    padding: 2rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 1rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
     text-align: center;
 
 }
@@ -39,5 +39,8 @@
     display: flex;
     align-items: center;
     letter-spacing: 10px;
-    margin: 1.5rem;
+    margin: 1rem;
+    
+    line-height: 30px;
+    word-spacing: 50px;
 }

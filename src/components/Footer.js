@@ -20,22 +20,23 @@ export function Footer() {
             <h5>Me siga nas redes sociais</h5>
             <h5>@Nathan</h5>
             <h5>contatoemail@mail.com</h5>
-        </div>
-        <br></br>
-        <div>
-           <ul className="social-list">
+          
+            <ul className="social-list">
             <li>
               <FaFacebook />
             </li>
+            &emsp;
             <li>
-              <FaInstagram />
+              <FaInstagram /> 
             </li>
+            &emsp;
             <li>
               <FaTwitter />
             </li>
+            &emsp;
            </ul>
         </div>
-        <br></br>
+        
         {/* <div className="direitos">
           <p className="col-sm">
             &copy;

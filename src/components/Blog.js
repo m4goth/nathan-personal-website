@@ -6,9 +6,19 @@ import '../css/Blog.css'
 const Blog = () => {
   return (
     <Container className="container-blog" maxWidth="md">
+      &emsp;
+      &emsp;
+      &emsp;
+      &emsp;
       <h1 className="tittle">Conteúdo</h1>
-      <p className="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum.</p>
+      <p className="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendumLorem ipsum 
+      dolor sit amet, consectetur adipiscing elit. Sit amet adipiscing bibendum velit bibendum.</p>
+      &emsp;
+      &emsp;
+      &emsp;
+      &emsp;
     </Container>
+    
   );
 };
 
