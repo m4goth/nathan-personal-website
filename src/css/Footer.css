@@ -35,10 +35,10 @@
 
 .social-list{
     list-style: none ;
-
+    
     display: flex;
     align-items: center;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     margin: 1rem;
     
     line-height: 30px;

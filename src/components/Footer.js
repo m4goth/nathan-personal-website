@@ -33,7 +33,6 @@ export function Footer() {
             <li>
               <FaTwitter />
             </li>
-            &emsp;
            </ul>
         </div>
         
