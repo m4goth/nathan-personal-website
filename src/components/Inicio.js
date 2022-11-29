@@ -17,7 +17,7 @@ const Inicio = () => {
         &emsp;
         &emsp;
           <h1 className="tittle">Nathan Levien Vanier</h1>
-          <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hac egestas facilisi arcu vivamus. Sit magna at id ipsum sit id viverra felis et. Pellentesque amet tristique rhoncu, donec a euismod velit. Hendrerit molestie fermentum odi euismod.</p>
+          <p className="paragraph">Professor e pesquisador na Faculdade de Agronomia Eliseu Maciel. Ministra aulas, cursos e palestras na área de pós-colheita, industrialização e qualidade de grãos. Realiza pesquisas voltadas para secagem, armazenamento e industrialização de arroz, cevada, feijão, milho, soja e trigo, além de estudar fatores relacionadas à etapa de produção que interferem na qualidade dos grãos. Na extensão, auxilia produtores e indústrias na melhoria da qualidade de produtos e processos. É Editor Associado do periódico Cereal Chemistry e coordenador de projeto de internacionalização da pós-graduação, financiado pela FAPERGS, com ênfase no desenvolvimento de ciência, tecnologia e inovação em pós-colheita, industrialização e qualidade de arroz.</p>
           <Button variant="contained" className="button">Entre em contato</Button>
         </Grid>
       </Grid>
