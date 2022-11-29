@@ -19,7 +19,7 @@ export function Servicos() {
                 <Grid item xs={4} sm={6} className="grid">
                     <h2>Cursos</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hac egestas facilisi arcu vivamus.</p>
-                    <Button variant="outlined">Ver mais</Button>
+                    <Button variant="outlined" href="https://www.linkedin.com/in/nathanvanier/">Ver mais</Button>
                 </Grid>
                 
                 <br></br>

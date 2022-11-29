@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import React from "react";
 import "../css/Footer.css";
@@ -28,8 +28,8 @@ export function Footer() {
               <FaInstagram /> 
             </li>
             &emsp;
-            <li>
-              <FaTwitter />
+            <li href="https://www.linkedin.com/in/nathanvanier/">
+              <FaLinkedin />
             </li>
            </ul>
         </div>
