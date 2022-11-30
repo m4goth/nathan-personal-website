@@ -1,12 +1,10 @@
-// import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-
 import * as React from "react";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Link from '@mui/material/Link';
-import Box from '@mui/material/Link';
-// import "../css/Footer.css";
+import Box from '@mui/material/Box';
 
+import "../css/Footer.css";
 
 // import { makeStyles } from '@mui/material/styles'
 
@@ -19,8 +17,8 @@ import Box from '@mui/material/Link';
 export function Footer() {
 
   return (
-    <footer>
-      <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} bgcolor="text.secondary" color="white">
+    <footer backgoundColor="blue">
+      <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} bgcolor="text.secondary" color="#fff">
         <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
@@ -28,11 +26,13 @@ export function Footer() {
               <Box>
                 <Link href="/" color="inherit">
                   Contato
+                  <br></br>
                 </Link>
               </Box>
               <Box>
                 <Link href="/" color="inherit">
                   Sobre
+                  <br></br>
                 </Link>
               </Box>
               <Box>
@@ -86,49 +86,10 @@ export function Footer() {
             </Grid>
           </Grid>
           <Box textAlign="center" pt={{xs: 5, sm: 10}} pb={{ xs: 5, sm: 0}}></Box>
-            Material Ui Workshop $reg; {new Date().getFullYear()}
+            &copy; Copy Right {new Date().getFullYear()}
         </Container>
       </Box>
     </footer>
   )};
 
 export default Footer;
-
-
-
-
-
-  // return (
-  //   <div className="footer-main">
-  //     <div className="footer-conteudo">
-  //       <div className="texto">
-  //           <p>contatoemail@mail.com</p>
-          
-  //           <ul className="social-list">
-  //           <li>
-  //             <FaFacebook />
-  //           </li>
-  //           &emsp;
-  //           <li>
-  //             <FaInstagram /> 
-  //           </li>
-  //           &emsp;
-  //           <li>
-  //             <FaLinkedin />
-  //           </li>
-  //          </ul>
-  //       </div>
-       
-  //       {/* <div className="direitos">
-  //         <p className="col-sm">
-  //           &copy;
-  //           {new Date().getFullYear()} 
-  //           <br></br>
-  //           Termos de Serviço
-  //         </p>
-  //       </div> */}
-  //       {/* <br></br> */}
-
-  //     </div>
-  //   </div>
-  // );
