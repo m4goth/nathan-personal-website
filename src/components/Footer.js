@@ -18,7 +18,7 @@ export function Footer() {
 
   return (
     <footer className="footer-main">
-      <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} bgcolor="text.secondary" color="#fff">
+      <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} color="#fff">
         <Container maxWidth="lg" className="footer-conteudo">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
