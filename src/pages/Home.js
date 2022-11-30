@@ -12,7 +12,6 @@ export function Home() {
             <Servicos></Servicos>
             <Livros></Livros>
             <Blog></Blog>
-            
         </main>
     )
 }
