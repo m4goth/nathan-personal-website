@@ -17,14 +17,14 @@ import "../css/Footer.css";
 export function Footer() {
 
   return (
-    <footer backgoundColor="blue">
+    <footer className="footer-main">
       <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} bgcolor="text.secondary" color="#fff">
         <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Categorias</Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="" color="inherit">
                   Contato
                   <br></br>
                 </Link>
@@ -55,17 +55,17 @@ export function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Redes</Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="https://www.instagram.com/nathan.vanier/" color="inherit">
                   Instagram
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="https://www.linkedin.com/in/nathanvanier/" color="inherit">
                   Linkedin
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ" color="inherit">
                   You Tube
                 </Link>
               </Box>
