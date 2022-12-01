@@ -19,16 +19,10 @@ export function Footer() {
   return (
     <footer className="footer-main">
       <Box px={{ xs: 3, sm: 10}} py={{ xs: 5, sm: 10}} color="#fff">
-        <Container maxWidth="lg" className="footer-conteudo">
+        <Container maxWidth="lg">
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Categorias</Box>
-              <Box>
-                <Link href="" color="inherit">
-                  Contato
-                  <br></br>
-                </Link>
-              </Box>
               <Box>
                 <Link href="/" color="inherit">
                   Sobre

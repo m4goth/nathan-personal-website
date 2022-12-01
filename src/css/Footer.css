@@ -2,25 +2,31 @@
 .footer-main {
     color: #FFFFFF;
     background-color: #0E5B83;
-    /* padding: 1rem; */
+    padding: 1rem;
+    text-decoration: none;
+}
 
+.footer-grid {
+    text-decoration: none;
+    line-height: 5rem;
 }
 
 
-.footer-conteudo {
+/* .rascunho{
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    text-decoration: none;
 
     font-size: 1rem;
     font-weight: 100;
     text-transform: capitalize;
     line-height: 1rem;
-}
 
-.social-list{
+    --------------
     list-style: none ;
     
     display: flex;
@@ -30,4 +36,4 @@
     
     line-height: 30px;
     word-spacing: 50px;
-}
+} */
