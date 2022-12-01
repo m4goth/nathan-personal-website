@@ -24,22 +24,22 @@ export function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Categorias</Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   Sobre
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   Serviços
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   Livros
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   Blog
                 </Link>
               </Box>
@@ -48,17 +48,17 @@ export function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Redes</Box>
               <Box>
-                <Link href="https://www.instagram.com/nathan.vanier/" color="inherit">
+                <Link href="https://www.instagram.com/nathan.vanier/" color="inherit" underline="none">
                   Instagram
                 </Link>
               </Box>
               <Box>
-                <Link href="https://www.linkedin.com/in/nathanvanier/" color="inherit">
+                <Link href="https://www.linkedin.com/in/nathanvanier/" color="inherit" underline="none">
                   Linkedin
                 </Link>
               </Box>
               <Box>
-                <Link href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ" color="inherit">
+                <Link href="https://www.youtube.com/channel/UC5ud4bZQ0lwcEdMedw7s-QQ" color="inherit" underline="none">
                   You Tube
                 </Link>
               </Box>
@@ -67,12 +67,12 @@ export function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Contato</Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   contatoemail@mail
                 </Link>
               </Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" underline="none">
                   (53)00000000000
                 </Link>
               </Box>
