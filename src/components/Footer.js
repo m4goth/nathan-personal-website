@@ -23,7 +23,7 @@ export function Footer() {
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Categorias</Box>
-              <Box>
+              <Box sx={{marginTop: "0.5rem"}}>
                 <Link href="/" color="inherit" underline="none">
                   Sobre
                 </Link>
@@ -47,8 +47,8 @@ export function Footer() {
 
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Redes</Box>
-              <Box>
-                <Link href="https://www.instagram.com/nathan.vanier/" color="inherit" underline="none">
+              <Box sx={{marginTop: "0.5rem"}}>
+                <Link href="https://www.instagram.com/nathan.vanier/" color="inherit" underline="none" sx={{marginTop: "0.5rem"}}>
                   Instagram
                 </Link>
               </Box>
@@ -65,8 +65,8 @@ export function Footer() {
             </Grid>
             
             <Grid item xs={12} sm={4}>
-              <Box borderBottom={1}>Contato</Box>
-              <Box>
+              <Box borderBottom={1} sx={{}}>Contato</Box>
+              <Box sx={{marginTop: "0.5rem"}}>
                 <Link href="/" color="inherit" underline="none">
                   contatoemail@mail
                 </Link>
