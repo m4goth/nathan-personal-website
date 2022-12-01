@@ -26,7 +26,7 @@ export function Footer() {
               <Box>
                 <Link href="/" color="inherit">
                   Sobre
-                  
+
                 </Link>
               </Box>
               <Box>
