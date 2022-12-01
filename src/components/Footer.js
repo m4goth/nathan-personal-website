@@ -24,7 +24,7 @@ export function Footer() {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Categorias</Box>
               <Box>
-                <Link href="/" color="inherit">
+                <Link href="/" color="inherit" className="link">
                   Sobre
                   <br></br>
                 </Link>
